@@ -1,0 +1,23 @@
+{
+  "name": "graphql-boilerplate",
+  "version": "1.0.0",
+  "description": "GraphQL boilerplate project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://sinisterglitch@github.com/SinisterGlitch/graphql-boilerplate.git"
+  },
+  "author": "Germain Riahi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SinisterGlitch/graphql-boilerplate/issues"
+  },
+  "homepage": "https://github.com/SinisterGlitch/graphql-boilerplate#readme",
+  "dependencies": {
+    "node": "0.0.0"
+  }
+}
