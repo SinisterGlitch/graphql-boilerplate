@@ -56,5 +56,6 @@ var schema = new graphql.GraphQLSchema({
 });
 
 express()
-    .use('/graphql', graphqlHTTP({ schema: schema, pretty: true }))
+    .use('/', graphqlHTTP({ schema: schema, pretty: true }))
     .listen(3000);
+
